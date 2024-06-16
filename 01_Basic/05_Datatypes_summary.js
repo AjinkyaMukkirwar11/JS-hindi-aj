@@ -30,6 +30,36 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof bigNumber);
-console.log(typeof outsideTem);
-console.log(typeof myFunction);
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTem);
+// console.log(typeof myFunction);
+
+// console.log(myFunction());
+// console.log(heros);
+// console.log(myObj);
+
+
+// ***************************************************************
+
+// Stact (Primitive) and Heap Memory (Non-Primitiver)
+
+
+let myYoutubename = "Ajyoutubedotcom"
+
+let anothername = myYoutubename
+anothername = "Chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Ajinkya@google.com"
+
+console.log(userOne.email); 
+console.log(userTwo.email); 
