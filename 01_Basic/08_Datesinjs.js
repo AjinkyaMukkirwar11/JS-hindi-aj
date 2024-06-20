@@ -7,7 +7,8 @@ let myDate = new Date()
 // console.log(myDate.toTimeString());
 // console.log(typeof myDate);
 
-// let myCurrentDate = new Date(2023, 0, 23)
-let myCurrentDate = new Date(2023, 0, 23)
-// let myCurrentDate = new Date(2023, 0, 23)
-console.log(myCurrentDate.toDateString());
+// let myCreatedDate = new Date(2023, 0, 23)
+// let myCreatedDate = new Date(2023, 0, 23, 9, 5)
+let myCreatedDate = new Date("2023-01-14")
+// let myCreatedDate = new Date(2023, 0, 23)
+console.log(myCreatedDate.toLocaleString());
