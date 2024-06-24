@@ -22,7 +22,7 @@ console.log(real_another_array)
 
 console.log( Array.isArray("Ajinkya"));
 console.log( Array.from("Ajinkya"));
-console.log( Array.from({name: "Ajinkya" }));  //interesting
+console.log( Array.from({name: "Ajinkya" }));  //interesting, it gives output empty array
 
 let score1 = 100
 let score2 = 200
